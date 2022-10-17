@@ -8,9 +8,9 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
 
-      # 왼쪾바 카테고리_바로가기 코드
+      <!-- 왼쪾바 카테고리_바로가기 코드 -->
       <li>
-        <span class="nav__sub-title">Blog</span>
+        <span class="nav__sub-title">Blog_test</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
@@ -19,10 +19,11 @@
                 {% endfor %}
             </ul>
       </li>
-      <li>	
+      <!--  방문자수 집계  -->
+      <!-- <li>	
             <br>      
             <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fansohxxn.github.io&count_bg=%23FFCC35&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false">
-      </li>
+      </li> -->
   </ul>
 </nav>
 
